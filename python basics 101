@@ -1,0 +1,34 @@
+print("Hola Amigo! Cuantos años tienes? ")
+
+if edad := int(input()):
+    if edad < 18:
+        print("Eres menor de edad.")
+    elif edad < 65:
+        print("Eres adulto.")
+    else:
+        print("Eres adulto mayor.")
+
+
+
+if sexo := input("Cual es tu sexo? (M/F):   "):
+    if sexo.upper() == "M" or sexo.upper() == "Masculino":
+        print("Eres hombre.")
+    elif sexo.upper() == "F" or sexo.upper() == "Femenino":
+        print("Eres mujer.")
+    else:
+        print("Sexo no reconocido.")
+
+
+
+if nombre := input("Cual es tu nombre?  "):
+    print(f"Hola {nombre}, mucho gusto!") 
+
+
+
+if ciudad := input("En que ciudad vives?    "):
+    print(f"Vives en {ciudad}?") 
+   
+
+
+print("Gracias por compartir tu información. ¡Hasta luego!")
+
